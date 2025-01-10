@@ -9,3 +9,688 @@ events:
     message: |
       The system is: Windows - 10.0.22000 - AMD64
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/TDM-GCC-64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/3.31.3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/TDM-GCC-64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/3.31.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-w6mvvt"
+      binary: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-w6mvvt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-w6mvvt'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_08c7a/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_08c7a.dir\\build.make CMakeFiles/cmTC_08c7a.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-w6mvvt'
+        O sistema não pode encontrar o caminho especificado.
+        Building C object CMakeFiles/cmTC_08c7a.dir/CMakeCCompilerABI.c.obj
+        CMakeFiles\\cmTC_08c7a.dir\\build.make:79: recipe for target 'CMakeFiles/cmTC_08c7a.dir/CMakeCCompilerABI.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_08c7a.dir/CMakeCCompilerABI.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-w6mvvt'
+        Makefile:133: recipe for target 'cmTC_08c7a/fast' failed
+        mingw32-make.exe: *** [cmTC_08c7a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Check for working C compiler: C:/TDM-GCC-64/bin/gcc.exe"
+    directories:
+      source: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-4qm6h7"
+      binary: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-4qm6h7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-4qm6h7'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_f1540/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f1540.dir\\build.make CMakeFiles/cmTC_f1540.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-4qm6h7'
+        O sistema não pode encontrar o caminho especificado.
+        Building C object CMakeFiles/cmTC_f1540.dir/testCCompiler.c.obj
+        CMakeFiles\\cmTC_f1540.dir\\build.make:79: recipe for target 'CMakeFiles/cmTC_f1540.dir/testCCompiler.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_f1540.dir/testCCompiler.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-4qm6h7'
+        Makefile:133: recipe for target 'cmTC_f1540/fast' failed
+        mingw32-make.exe: *** [cmTC_f1540/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/TDM-GCC-64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/3.31.3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/TDM-GCC-64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/3.31.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-hq5szu"
+      binary: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-hq5szu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-hq5szu'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_59b5d/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_59b5d.dir\\build.make CMakeFiles/cmTC_59b5d.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-hq5szu'
+        O sistema não pode encontrar o caminho especificado.
+        Building C object CMakeFiles/cmTC_59b5d.dir/CMakeCCompilerABI.c.obj
+        CMakeFiles\\cmTC_59b5d.dir\\build.make:79: recipe for target 'CMakeFiles/cmTC_59b5d.dir/CMakeCCompilerABI.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_59b5d.dir/CMakeCCompilerABI.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-hq5szu'
+        Makefile:133: recipe for target 'cmTC_59b5d/fast' failed
+        mingw32-make.exe: *** [cmTC_59b5d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Check for working C compiler: C:/TDM-GCC-64/bin/gcc.exe"
+    directories:
+      source: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-glog50"
+      binary: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-glog50"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-glog50'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_adbe8/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_adbe8.dir\\build.make CMakeFiles/cmTC_adbe8.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-glog50'
+        O sistema não pode encontrar o caminho especificado.
+        Building C object CMakeFiles/cmTC_adbe8.dir/testCCompiler.c.obj
+        CMakeFiles\\cmTC_adbe8.dir\\build.make:79: recipe for target 'CMakeFiles/cmTC_adbe8.dir/testCCompiler.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_adbe8.dir/testCCompiler.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-glog50'
+        Makefile:133: recipe for target 'cmTC_adbe8/fast' failed
+        mingw32-make.exe: *** [cmTC_adbe8/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/TDM-GCC-64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/3.31.3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/TDM-GCC-64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/3.31.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-1xwi5n"
+      binary: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-1xwi5n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-1xwi5n'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_19899/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_19899.dir\\build.make CMakeFiles/cmTC_19899.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-1xwi5n'
+        O sistema não pode encontrar o caminho especificado.
+        Building C object CMakeFiles/cmTC_19899.dir/CMakeCCompilerABI.c.obj
+        CMakeFiles\\cmTC_19899.dir\\build.make:79: recipe for target 'CMakeFiles/cmTC_19899.dir/CMakeCCompilerABI.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_19899.dir/CMakeCCompilerABI.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-1xwi5n'
+        Makefile:133: recipe for target 'cmTC_19899/fast' failed
+        mingw32-make.exe: *** [cmTC_19899/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Check for working C compiler: C:/TDM-GCC-64/bin/gcc.exe"
+    directories:
+      source: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-6f7bwm"
+      binary: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-6f7bwm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-6f7bwm'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_69483/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_69483.dir\\build.make CMakeFiles/cmTC_69483.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-6f7bwm'
+        O sistema não pode encontrar o caminho especificado.
+        Building C object CMakeFiles/cmTC_69483.dir/testCCompiler.c.obj
+        CMakeFiles\\cmTC_69483.dir\\build.make:79: recipe for target 'CMakeFiles/cmTC_69483.dir/testCCompiler.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_69483.dir/testCCompiler.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-6f7bwm'
+        Makefile:133: recipe for target 'cmTC_69483/fast' failed
+        mingw32-make.exe: *** [cmTC_69483/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/TDM-GCC-64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/3.31.3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/TDM-GCC-64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/3.31.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-swdksb"
+      binary: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-swdksb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-swdksb'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_0742b/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0742b.dir\\build.make CMakeFiles/cmTC_0742b.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-swdksb'
+        O sistema não pode encontrar o caminho especificado.
+        Building C object CMakeFiles/cmTC_0742b.dir/CMakeCCompilerABI.c.obj
+        CMakeFiles\\cmTC_0742b.dir\\build.make:79: recipe for target 'CMakeFiles/cmTC_0742b.dir/CMakeCCompilerABI.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_0742b.dir/CMakeCCompilerABI.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-swdksb'
+        Makefile:133: recipe for target 'cmTC_0742b/fast' failed
+        mingw32-make.exe: *** [cmTC_0742b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Check for working C compiler: C:/TDM-GCC-64/bin/gcc.exe"
+    directories:
+      source: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-afqwtt"
+      binary: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-afqwtt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-afqwtt'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_2c480/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2c480.dir\\build.make CMakeFiles/cmTC_2c480.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-afqwtt'
+        O sistema não pode encontrar o caminho especificado.
+        Building C object CMakeFiles/cmTC_2c480.dir/testCCompiler.c.obj
+        CMakeFiles\\cmTC_2c480.dir\\build.make:79: recipe for target 'CMakeFiles/cmTC_2c480.dir/testCCompiler.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_2c480.dir/testCCompiler.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-afqwtt'
+        Makefile:133: recipe for target 'cmTC_2c480/fast' failed
+        mingw32-make.exe: *** [cmTC_2c480/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/TDM-GCC-64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/3.31.3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/TDM-GCC-64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/3.31.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-0h9zt8"
+      binary: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-0h9zt8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-0h9zt8'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_8e3a9/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8e3a9.dir\\build.make CMakeFiles/cmTC_8e3a9.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-0h9zt8'
+        O sistema não pode encontrar o caminho especificado.
+        Building C object CMakeFiles/cmTC_8e3a9.dir/CMakeCCompilerABI.c.obj
+        CMakeFiles\\cmTC_8e3a9.dir\\build.make:79: recipe for target 'CMakeFiles/cmTC_8e3a9.dir/CMakeCCompilerABI.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_8e3a9.dir/CMakeCCompilerABI.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-0h9zt8'
+        Makefile:133: recipe for target 'cmTC_8e3a9/fast' failed
+        mingw32-make.exe: *** [cmTC_8e3a9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Check for working C compiler: C:/TDM-GCC-64/bin/gcc.exe"
+    directories:
+      source: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-jga38k"
+      binary: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-jga38k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-jga38k'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_91504/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_91504.dir\\build.make CMakeFiles/cmTC_91504.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-jga38k'
+        O sistema não pode encontrar o caminho especificado.
+        Building C object CMakeFiles/cmTC_91504.dir/testCCompiler.c.obj
+        CMakeFiles\\cmTC_91504.dir\\build.make:79: recipe for target 'CMakeFiles/cmTC_91504.dir/testCCompiler.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_91504.dir/testCCompiler.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-jga38k'
+        Makefile:133: recipe for target 'cmTC_91504/fast' failed
+        mingw32-make.exe: *** [cmTC_91504/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/TDM-GCC-64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/3.31.3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/TDM-GCC-64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/3.31.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-x9qbs1"
+      binary: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-x9qbs1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-x9qbs1'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_0ddd7/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0ddd7.dir\\build.make CMakeFiles/cmTC_0ddd7.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-x9qbs1'
+        O sistema não pode encontrar o caminho especificado.
+        Building C object CMakeFiles/cmTC_0ddd7.dir/CMakeCCompilerABI.c.obj
+        CMakeFiles\\cmTC_0ddd7.dir\\build.make:79: recipe for target 'CMakeFiles/cmTC_0ddd7.dir/CMakeCCompilerABI.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_0ddd7.dir/CMakeCCompilerABI.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-x9qbs1'
+        Makefile:133: recipe for target 'cmTC_0ddd7/fast' failed
+        mingw32-make.exe: *** [cmTC_0ddd7/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Check for working C compiler: C:/TDM-GCC-64/bin/gcc.exe"
+    directories:
+      source: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-d4epdg"
+      binary: "C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-d4epdg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-d4epdg'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_8a406/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8a406.dir\\build.make CMakeFiles/cmTC_8a406.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-d4epdg'
+        O sistema não pode encontrar o caminho especificado.
+        Building C object CMakeFiles/cmTC_8a406.dir/testCCompiler.c.obj
+        CMakeFiles\\cmTC_8a406.dir\\build.make:79: recipe for target 'CMakeFiles/cmTC_8a406.dir/testCCompiler.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_8a406.dir/testCCompiler.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Hugo/Documents/GitHub/cmaketeste/build/CMakeFiles/CMakeScratch/TryCompile-d4epdg'
+        Makefile:133: recipe for target 'cmTC_8a406/fast' failed
+        mingw32-make.exe: *** [cmTC_8a406/fast] Error 2
+        
+      exitCode: 2
+...
