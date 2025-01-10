@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Executar MeuProjeto",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/MeuProjeto.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/TDM-GCC-64/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Habilitar formatação para gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "compilar"
+        }
+    ]
+}
